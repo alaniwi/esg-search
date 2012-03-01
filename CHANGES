@@ -170,3 +170,6 @@ Internal changes to URLs resolved by the servlet
 2.2.0
 - Changed harvesting and querying of metadata to  be case-independent (everything converted to lowercase)
 - Upgraded solr schema to ESGF version 1.4
+
+2.2.1
+- Upgraded models.properties list
