@@ -113,7 +113,8 @@ public class SolrXmlBuilder {
 	 * @return
 	 */
 	public String buildCommitMessage() {
-	    return "<commit waitfFlush=\"true\" waitSearcher=\"true\"/>";
+	    //return "<commit waitfFlush=\"true\" waitSearcher=\"true\"/>";
+	    return "<commit />";
 	}
 	
 	/**
