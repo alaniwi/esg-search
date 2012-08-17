@@ -823,7 +823,7 @@
        <shardHandlerFactory class="solr.HttpShardHandlerFactory">
          <int name="socketTimeOut">1000</int>
          <int name="connTimeOut">5000</int>
-       </shardHandler>
+       </shardHandlerFactory>
      </requestHandler>
 
     <!-- If the default list of SearchComponents is not desired, that
@@ -1141,8 +1141,8 @@
          <str name="confFiles">schema.xml,stopwords.txt</str>
        </lst>
        <lst name="${slave:slave}">
-         <str name="masterUrl">http://localhost:8984/solr/${solr.core.name}</str>
-         <str name="pollInterval">00:00:60</str>
+       		<str name="masterUrl">http://localhost:8984/solr/${solr.core.name}</str>
+      		<str name="pollInterval">00:00:60</str>
        </lst>
      </requestHandler>
     
